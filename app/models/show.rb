@@ -6,3 +6,4 @@ class Show < ActiveRecord::Base
     self.actors.map do |x| "#{actor.first_name} #{actor.last_name}"
   end
 end
+end
